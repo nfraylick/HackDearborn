@@ -1,0 +1,30 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Post Input Section -->
+    <EditText
+        android:id="@+id/editTextPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your post here..." />
+
+    <Button
+        android:id="@+id/buttonPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:layout_below="@id/editTextPost"/>
+
+    <!-- Post List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonPost"/>
+
+</RelativeLayout>
+
