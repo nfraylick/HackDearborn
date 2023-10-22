@@ -1,0 +1,50 @@
+.index {
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div {
+    background-color: #ecf0f1;
+    height: 800px;
+    position: relative;
+    width: 360px;
+  }
+  
+  .index .coflag {
+    height: 124px;
+    left: 69px;
+    object-fit: cover;
+    position: absolute;
+    top: 227px;
+    width: 222px;
+  }
+  
+  .index .welcome {
+    color: #2c3e50;
+    direction: rtl;
+    font-family: "Nunito", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 129px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 443px;
+  }
+  
+  .index .text-wrapper {
+    color: #2c3e50;
+    font-family: "Nunito", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 363px;
+  }
